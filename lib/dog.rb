@@ -20,6 +20,7 @@ class Dog
   def self.print_all
     @@all.each do |name|
      puts "#{@@all.join(", ")}"
+   end
   end
 
 end# Add your code here
