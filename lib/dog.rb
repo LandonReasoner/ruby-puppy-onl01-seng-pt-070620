@@ -18,7 +18,7 @@ class Dog
   end
   
   def self.print_all
-    puts "#{@@all.split}"
+    puts "#{@@all.join}"
   end
 
 end# Add your code here
